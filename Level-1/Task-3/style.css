@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    height: 80vh;
+    background-color: #f0e7b4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+form{
+    background-color: #f2b1a2;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 10px -6px #777;
+    border-radius: 12px;
+}
+#outputRes{
+    font-size: 35px;
+}
